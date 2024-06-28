@@ -1,0 +1,172 @@
+h1{
+    font-size: 18px;
+}
+a{
+    color: #0d0d0d;
+}
+.logo{
+    width: 100px;
+    border-radius: 50%;
+    animation: quay 3s infinite linear;
+}
+@keyframes quay{
+    to{
+        transform: rotate(360deg);
+    }
+}
+.header span{
+    font-family: 'Style Script';
+    font-weight: 600;
+    padding: 4px 32px;
+    font-size: 30px;
+    color: rgb(10, 95, 14);
+    box-shadow: 5px 5px 5px rgb(8, 98, 12);
+}
+
+#icon-sidebar{
+   padding: 0 4px;
+}
+.thongke{
+    background-color: rgb(245, 249, 249);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(223, 223, 222);
+}
+.thongke img{
+   
+}
+.slider{
+   
+    background-color: #F9FAFF;
+    box-shadow: 5px 5px 5px rgb(223, 223, 222);
+    width: 20%;
+}
+.lienhe{
+    display: flex;
+}
+.header{
+  top: 0;
+  z-index: 999;
+  backdrop-filter: blur(2000px);
+}
+.main{
+  margin-top:  100px;
+
+}
+.main_right{
+    /* margin-left: 25%; */
+}
+.slider >.menu1 >li{
+    font-size: 20px;  
+    /* border-bottom: 1px solid #000;   */
+    /* border: 0.5px solid #afafaf; */
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+.slider >.menu1 >li a{
+    padding: 20px;
+    
+    /* border-bottom: 1px solid #000;   */
+
+}
+.slider >.menu1 >li a:hover{
+    cursor: pointer;
+    box-shadow: 30px 30px 30px rgb(223, 223, 222);
+    animation: thu 1.5s forwards;
+    font-weight: 600;
+}
+@keyframes thu{
+    to{
+        transform: scale(1.05,1.05);
+    }
+}
+.slider >ul li a{
+    color: black;
+}
+.menu2-item{
+    list-style: none;
+}
+
+.menu2-item a{
+    text-decoration: none;
+}
+.menu2 li {
+    margin-bottom: 10px;
+    
+}
+.ti-angle-down, .ti-angle-up{
+    float: right;
+}
+.menu2{
+    display: none;
+}
+.menu2 li {
+    margin-bottom: 30px;
+    
+}
+.menu2 li a:hover{
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.thoigian{
+    display: flex;
+    margin: 30px;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+}
+.theongay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.theongay label{
+    margin-right: 10px;
+}
+.theongay input{
+    width: 150px;
+    height: 30px;
+}
+.theongay button{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+.theongay button:hover{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.phone{
+    animation: phone 1s infinite;
+}
+@keyframes phone {
+    0%{
+        transform: rotate(0deg);
+    }50%{
+        transform:rotate(60deg);
+    }100%{
+        transform: rotate(-30deg);
+    }
+}
+.diachi{
+    animation: diachi 1s infinite;
+}
+@keyframes diachi {
+    0%{
+        transform: translateY(0px);
+    }50%{
+        transform:translateY(-20px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
+}
+
